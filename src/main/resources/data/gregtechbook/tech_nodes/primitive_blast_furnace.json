@@ -1,0 +1,26 @@
+{
+  "id": "primitive_blast_furnace",
+  "display_name": "Primitive Blast Furnace",
+  "icon": "gregtech:primitive_blast_furnace",
+  "dependencies": ["simple_hammer"],
+  "description": "A primitive multi-block furnace used for early smelting.",
+  "steps": [
+    {
+      "type": "acquire",
+      "description": "Get a simple hammer (see Simple Hammer entry).",
+      "item_tag": "forge:tools/hammers",
+      "alternatives": ["gregtech:bronze_hammer", "gregtech:iron_hammer"]
+    },
+    {
+      "type": "build",
+      "description": "Assemble the primitive blast furnace as shown in the blueprint.",
+      "blueprint": "primitive_blast_furnace"
+    },
+    {
+      "type": "fuel",
+      "description": "Add 4 units of charcoal or 1 unit of gregtech:blast_fuel_block to power the furnace.",
+      "item_tag": "forge:charcoal"
+    }
+  ],
+  "blueprint": "primitive_blast_furnace"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "primitive_blast_furnace",
+  "size": { "x": 7, "y": 5, "z": 7 },
+  "origin": { "x": 3, "y": 0, "z": 3 },
+  "blocks": [
+    { "pos": [ -1, 0, 0 ], "block": "minecraft:cobblestone" },
+    { "pos": [ 0, 0, 0 ], "block": "gregtech:blast_furnace_core" },
+    { "pos": [ 1, 0, 0 ], "block": "minecraft:cobblestone" },
+    { "pos": [ 0, 1, 0 ], "block": "minecraft:air" }
+    // Note: Expand this to include the full multiblock layout. Coordinates are relative to the origin.
+  ],
+  "notes": "Place the core at the center, surround with cobblestone walls. This is an example blueprint; finalize coordinates when authoring in-game."
+}

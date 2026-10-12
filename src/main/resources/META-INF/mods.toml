@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion=">=46.0"
+license="MIT"
+[[mods]]
+modId="gregtechbook"
+version="0.1.0"
+displayName="GregTech Book (NeoForge 1.20.1)"
+description='''
+A data-driven progression book for GregTech that integrates with FTB Quests. Provides a tech tree, detailed step-by-step guides, and multiblock blueprints.
+'''
+
+[[dependencies.gregtechbook]]
+modId="ftbquests"
+mandatory=false
+versionRange="*"
+ordering="NONE"
+side="BOTH"

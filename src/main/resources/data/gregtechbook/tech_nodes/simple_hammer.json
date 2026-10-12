@@ -1,0 +1,11 @@
+{
+  "id": "simple_hammer",
+  "display_name": "Simple Hammer",
+  "icon": "minecraft:iron_ingot",
+  "dependencies": [],
+  "description": "A basic hammer used for early crafting and processing.",
+  "steps": [
+    { "type": "acquire", "description": "Gather 3 iron ingots.", "item_tag": "forge:ingots/iron", "count": 3 },
+    { "type": "craft", "description": "Open a crafting table and place the iron ingots in the pattern: left-middle, center, left-bottom (result: Simple Hammer).", "recipe_hint": "iron_ingot x3" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "ftbquests:json:1",
+  "defaultChapter": 0,
+  "chapters": [
+    {
+      "name": "GregTech Progression",
+      "description": "Core progression for GregTech early game.",
+      "quests": [
+        {
+          "id": "q_simple_hammer",
+          "name": "Craft a Simple Hammer",
+          "tasks": [
+            { "type": "item", "item": "minecraft:iron_ingot", "amount": 3 }
+          ],
+          "rewards": [
+            { "type": "item", "item": "gregtechbook:gregtech_book", "count": 1 }
+          ]
+        },
+        {
+          "id": "q_primitive_blast_furnace",
+          "name": "Build Primitive Blast Furnace",
+          "tasks": [
+            { "type": "place", "block": "gregtech:blast_furnace_core", "amount": 1 }
+          ],
+          "requirements": ["q_simple_hammer"],
+          "rewards": [
+            { "type": "xp", "amount": 50 }
+          ]
+        }
+      ]
+    }
+  ]
+}
